@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    background-color:#D9D9D9;
+    width: 366px;
+    height: 437px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h1{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    position: relative;
+    top: -40px;
+       
+}
+
+.text{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25.42px;
+    position: relative;
+    top: -30px;
+}
+
+.seguir a{
+    text-decoration: none;
+    color: white;  
+}
+
+.seguir{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width: 176px;
+    height: 48px;
+    background-color:#5C85D4;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+.japa{
+    position: relative;
+    top:-50px ;
+
+}
+
+.seguir:hover{
+    background-color:  rgb(20, 20, 83) ;
+}
+
+.box img{
+    position: relative;
+    top: -10px;
+}
